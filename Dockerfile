@@ -12,7 +12,7 @@ RUN make deps
 RUN make
 
 
-FROM alpine:latest
+FROM alpine:3.15
 
 RUN apk --update add ca-certificates
 
